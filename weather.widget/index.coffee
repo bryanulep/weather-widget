@@ -1,6 +1,6 @@
 options =
-  city          : "Amsterdam"       # default city in case location detection fails
-  region        : "NH"              # default region in case location detection fails
+  city          : "Winnipeg"       # default city in case location detection fails
+  region        : "MB"              # default region in case location detection fails
   units         : 'c'               # c for celcius. f for Fahrenheit
   staticLocation: false             # set to true to disable autmatic location lookup
 
@@ -13,7 +13,7 @@ appearance =
 refreshFrequency: 600000            # Update every 10 minutes
 
 style: """
-  top  : 10px
+  bottom  : 10px
   left : 10px
   width: 360px
 
